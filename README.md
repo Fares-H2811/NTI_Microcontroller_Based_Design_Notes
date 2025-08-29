@@ -125,61 +125,62 @@ Welcome to my comprehensive learning journey from the **National Telecommunicati
 ---
 
 ## 🔬 Week 2-3: Embedded Systems Development
+### Week 2-3: Embedded Systems Development *(Mixed Progress)*
 
-### 🎯 Core Embedded Systems Concepts
-- **Microcontroller Architecture and Organization**
-- **Memory Management in Embedded Systems**
-- **Real-time Operating Systems (RTOS) Fundamentals**
-- **Interrupt Service Routines (ISR) Design**
-- **Hardware Abstraction Layer (HAL) Implementation**
-- **Power Management and Low-Power Design**
+### 🎯 Core Embedded Systems Concepts ✅
+- **Microcontroller Architecture and Organization** - *Completed*
+- **Memory Management in Embedded Systems** - *Completed*
+- **Real-time Operating Systems (RTOS) Fundamentals** - *Completed*
+- **Interrupt Service Routines (ISR) Design** - *Completed*
+- **Hardware Abstraction Layer (HAL) Implementation** - *Completed*
+- **Power Management and Low-Power Design** - *Completed*
 
-### 🔌 Hardware Interfacing and Peripherals
-- **GPIO Programming and Digital I/O Control**
-- **Analog-to-Digital Converter (ADC) Programming**
-- **Pulse Width Modulation (PWM) Generation**
-- **Timer and Counter Programming**
-- **Watchdog Timer Implementation**
-- **External Interrupt Handling**
+### 🔌 Hardware Interfacing and Peripherals ✅
+- **GPIO Programming and Digital I/O Control** - *Completed*
+- **Analog-to-Digital Converter (ADC) Programming** - *Completed*
+- **Pulse Width Modulation (PWM) Generation** - *Completed*
+- **Timer and Counter Programming** - *Completed*
+- **Watchdog Timer Implementation** - *Completed*
+- **External Interrupt Handling** - *Completed*
 
-### 🌐 Communication Protocols
-- **UART (Universal Asynchronous Receiver-Transmitter)**
+### 🌐 Communication Protocols ✅
+- **UART (Universal Asynchronous Receiver-Transmitter)** - *Completed*
   - Serial communication implementation
   - Baud rate calculation and configuration
   - Data transmission and reception handling
-- **SPI (Serial Peripheral Interface)**
+- **SPI (Serial Peripheral Interface)** - *Completed*
   - Master-slave communication
   - Multi-device interfacing
   - Clock polarity and phase configuration
-- **I2C (Inter-Integrated Circuit)**
+- **I2C (Inter-Integrated Circuit)** - *Completed*
   - Multi-master bus architecture
   - Address resolution and collision handling
   - Clock stretching and arbitration
 
-### ⚡ Advanced Embedded Programming
-- **Direct Memory Access (DMA) Programming**
-- **Boot Loader Design and Implementation**
-- **Flash Memory Programming and EEPROM Operations**
-- **Clock System Configuration and Management**
-- **Reset and Brown-out Detection**
-- **In-System Programming (ISP) Techniques**
+### ⚡ Advanced Embedded Programming *(Upcoming Topics)*
+- **Direct Memory Access (DMA) Programming** ⏳
+- **Boot Loader Design and Implementation** ⏳
+- **Flash Memory Programming and EEPROM Operations** ⏳
+- **Clock System Configuration and Management** ⏳
+- **Reset and Brown-out Detection** ⏳
+- **In-System Programming (ISP) Techniques** ⏳
 
-### 🛠️ Development Tools and Debugging
-- **Integrated Development Environment (IDE) Usage**
-- **Cross-compilation and Toolchain Setup**
-- **Hardware Debugging with JTAG/SWD**
-- **Logic Analyzer and Oscilloscope Usage**
-- **Code Optimization for Memory and Performance**
-- **Unit Testing in Embedded Systems**
+### 🛠️ Development Tools and Debugging *(Upcoming Topics)*
+- **Integrated Development Environment (IDE) Usage** ⏳
+- **Cross-compilation and Toolchain Setup** ⏳
+- **Hardware Debugging with JTAG/SWD** ⏳
+- **Logic Analyzer and Oscilloscope Usage** ⏳
+- **Code Optimization for Memory and Performance** ⏳
+- **Unit Testing in Embedded Systems** ⏳
 
-### 🏗️ Practical Projects Week 2-3
-- 🌡️ **Temperature Monitoring System** with ADC and Display
-- 🚦 **Traffic Light Controller** with Timer-based State Machine
-- 📡 **Wireless Sensor Node** with Multiple Communication Protocols
-- 🔋 **Battery Management System** with Power Optimization
-- 🎮 **Real-time Control System** with Interrupt-driven Architecture
-- 📱 **IoT Device Interface** with Cloud Connectivity
-
+### 🏗️ Foundational Projects Week 2-3 *(Upcoming)*
+- 🌡️ **Temperature Monitoring System** with ADC and Display ⏳
+- 🚦 **Traffic Light Controller** with Timer-based State Machine ⏳
+- 📡 **Wireless Sensor Node** with Multiple Communication Protocols ⏳
+- 🔋 **Battery Management System** with Power Optimization ⏳
+- 🎮 **Real-time Control System** with Interrupt-driven Architecture ⏳
+- 📱 **IoT Device Interface** with Cloud Connectivity ⏳
+  
 ---
 
 ## 💼 Week 4: Freelancing Skills and Professional Development
@@ -309,29 +310,25 @@ NTI_Microcontroller_Based_Design_Notes/
 │       ├── algorithms/
 │       ├── data_structures/
 │       └── practical_tasks/
-├── Week_2-3_Embedded_Systems/
-│   ├── microcontroller_architecture.md
-│   ├── hardware_interfacing.md
-│   ├── communication_protocols.md
-│   ├── real_time_programming.md
-│   ├── embedded_projects/
-│   │   ├── temperature_monitoring/
-│   │   ├── traffic_controller/
-│   │   ├── wireless_sensor/
-│   │   ├── power_management/
-│   │   └── iot_gateway/
-│   └── development_tools/
-├── Week_4_Freelancing_Skills/
-│   ├── linkedin_optimization_guide.md
-│   ├── freelancing_platforms_setup.md
-│   ├── project_management_templates/
-│   ├── professional_documentation/
-│   └── career_development_resources/
-└── Resources/
-    ├── datasheets/
-    ├── reference_manuals/
-    ├── development_boards/
-    └── useful_links.md
+└── Week_2-3_Embedded_Systems/
+    ├── Embedded_Intro_session.md  # Embedded fundamentals, processor architecture, memory types
+    ├── Embedded_session_3.md      # Keypad & LCD interfaces with practical examples
+    ├── Embedded_session_4.md      # Interrupts theory & ISR & Callbacks
+    ├── Embedded_session_5.md      # ADC/DAC theory with detailed calculations and register explanations
+    ├── Embedded_session_6.md      # Timer concepts with mathematical formulas and optimization tips
+    ├── Embedded_session_8.md      # Communication protocols overview and UART implementation
+    ├── Embedded_session_9.md      # SPI & I2C protocols with detailed frame formats and code examples
+    ├── Embedded_session_10.md     # RTOS fundamentals with task management and scheduling algorithms
+    ├── Development_notes.md       # programming challenges & Debugging strategies & pitfalls and their solutions
+    ├── Atmega32_driver_guide.md   # Complete HAL/MCAL architecture & Detailed driver templates for major peripherals
+    ├── Project_ideas_guide.md     # 15 Progressive Projects with 1 Major Capstone Project: Smart Home Energy Management System
+    ├── embedded_projects/             # Upcoming
+    │   ├── temperature_monitoring/    # Upcoming
+    │   ├── traffic_controller/        # Upcoming
+    │   ├── wireless_sensor/           # Upcoming
+    │   ├── power_management/          # Upcoming
+    │   └── iot_gateway/               # Upcoming
+    └── development_tools/             # Upcoming
 ```
 
 ---
